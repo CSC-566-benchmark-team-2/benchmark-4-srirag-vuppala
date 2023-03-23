@@ -11,7 +11,7 @@ class Agent(ABC):
         Returns:
             Move against opponent
         """
-        pass
+        return Move(self.rand.randint(0, 2))
 
 
 class Agent1(Agent):

@@ -24,11 +24,11 @@ def create_agent(requested_agent: str) -> Agent:
     # Your code here.
 
     if requested_agent == "agent_1":
-        return None
+        return Agent() 
     elif requested_agent == "agent_2":
-        return None
+        return Agent() 
     elif requested_agent == "agent_3":
-        return None
+        return Agent() 
 
 
 def set_computer_agent(agent: int, seed: int = 42):
